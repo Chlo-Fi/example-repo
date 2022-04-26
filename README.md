@@ -11,7 +11,7 @@ NEVER EVER EVER EVER EVERRRRRRR:
 </ul>
 
 ## Command Line Prompts for Git:
-<br>**Create a Folder (directory)**: *mkdir* [Directory Name] 
+**Create a Folder (directory)**: *mkdir* [Directory Name] 
 <br>**Navigate to Directory**: *cd* [Directory Name]*/*
 <br>**Clone a Repository**: *git clone* [repository html from github (starts with "http://")] [name you'd like to give the repository - use _ for spaces] 
 <br>**Navigate to the Repository:** *cd* [repository name from above]
@@ -23,4 +23,7 @@ NEVER EVER EVER EVER EVERRRRRRR:
 <br>**Push the Commits to Git:** *git push origin* [origin name (i.e. main, master, etc.)]
 <br>**See the Changes to a File:** *git diff* [filename.extension]
 <br>**Get Log of Commits:** *git log*
+<br>**Check out the unchanged file:** *git checkout* [filename.extension]
+
+<br> Change me
 
