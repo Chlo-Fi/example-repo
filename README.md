@@ -11,16 +11,16 @@ NEVER EVER EVER EVER EVERRRRRRR:
 </ul>
 
 ## Command Line Prompts for Git:
-**Create a Folder (directory)**: *mkdir [Directory Name]*
-**Navigate to Directory**: *cd [Directory Name]/*
-**Clone a Repository**: *git clone [repository html from github (starts with "http://")] [name you'd like to give the repository - use _ for spaces]
-**Navigate to the Repository:** *cd [repository name from above]*
-**Get Status of Git:** *git status*
-**Add file to Git:** *git add [file name and extension (i.e. README.md)]*
-**Commit file to Git:** *git commit -m "[message for git commit]"*
-**Configure Git User Email:** *git config user.email "[user email address]"* 
-**Configure Git User Name:** *git config user.name "[user name]"*
-**Push the Commits to Git:** *git push origin [origin name (i.e. main, master, etc.)]*
-**See the Changes to a File:** *git diff [filename.extension]*
-**Get Log of Commits:** *git log*
+</n>**Create a Folder (directory)**: *mkdir* [Directory Name] 
+</n>**Navigate to Directory**: *cd* [Directory Name]*/*
+</n>**Clone a Repository**: *git clone* [repository html from github (starts with "http://")] [name you'd like to give the repository - use _ for spaces] 
+</n>**Navigate to the Repository:** *cd* [repository name from above]
+</n>**Get Status of Git:** *git status*
+</n>**Add file to Git:** *git add* [file name and extension (i.e. README.md)]
+</n>**Commit file to Git:** *git commit -m "*[message for git commit]*"*
+</n>**Configure Git User Email:** *git config user.email "*[user email address]*"* 
+</n>**Configure Git User Name:** *git config user.name "*[user name]*"*
+</n>**Push the Commits to Git:** *git push origin* [origin name (i.e. main, master, etc.)]
+</n>**See the Changes to a File:** *git diff* [filename.extension]
+</n>**Get Log of Commits:** *git log*
 
