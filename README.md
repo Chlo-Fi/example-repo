@@ -23,7 +23,4 @@ NEVER EVER EVER EVER EVERRRRRRR:
 <br>**Push the Commits to Git:** *git push origin* [origin name (i.e. main, master, etc.)]
 <br>**See the Changes to a File:** *git diff* [filename.extension]
 <br>**Get Log of Commits:** *git log*
-<br>**Check out the unchanged file:** *git checkout* [filename.extension]
-
-<br> Change me
-
+<br>**Undo Changes to File** *git checkout* [filename.extension]
