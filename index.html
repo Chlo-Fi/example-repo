@@ -4,18 +4,65 @@
 
 <h2> Command Line Prompts for Git:</h2>
 
-<body>
-	<b>Create a Folder (directory)</b>: mkdir <i>[Directory Name]</i> 
-	<br><b>Navigate to Directory</b>: cd <i>[Directory Name]</i>/
-	<br><b>Clone a Repository</b>: git clone <i>[repository html from github (starts with "http://")] [name you'd like to give the repository - use _ for spaces]</i> 
-	<br><b>Navigate to the Repository:</b> cd <i>[repository name from above]</i>
-	<br><b>Get Status of Git:</b> git status
-	<br><b>Add file to Git:</b> git add <i>[file name and extension (i.e. README.md)]</i>
-	<br><b>Commit file to Git:</b> git commit -m "<i>[message for git commit]</i>"
-	<br><b>Configure Git User Email:</b> git config user.email "<i>[user email address]</i>" 
-	<br><b>Configure Git User Name:</b> git config user.name "<i>[user name]</i>"
-	<br><b>Push the Commits to Git:</b> git push origin <i>[origin name (i.e. main, master, etc.)]</i>
-	<br><b>See the Changes to a File:</b> git diff <i>[filename.extension]</i>
-	<br><b>Get Log of Commits:</b> git log
-	<br><b>Undo Changes to File</b> git checkout <i>[filename.extension]</i>
-</body>
+<h3> Directories & Navigation:</h3>
+	<body>
+		<ul>
+			<li><b>Create a Directory</b>: mkdir <i>[Directory Name]</i> 
+			<li><b>Navigate to Directory "Change Directory"</b>: cd <i>[Directory Name]</i>/
+			<li><b>Back Out of Current Location</b>: cd ..
+			<li><b>Navigate to Absolute Path</b>: cd /
+			<li><b>Navigate to Top Level Directory</b>: cd mnt
+			<li><b>List Files in Directory</b>: ls
+			<li><b>Remove Directories (Delete)</b>: rm -rf <i>[Directory Name]</i>
+		</ul>
+	</body>
+
+<h3> Files: </h3>
+	<body>
+		<ul>
+			<li><b>Create a File</b>: touch <i>[filename.extension]</i>
+			<li><b>Delete a File</b>: rm <i>[filename.extension]</i></li>
+		</ul>
+	</body>
+
+<h3>Git: </h3>
+	<body>
+		<ul>
+			<li><b>Check Git Version</b>: git --version
+			<li><b>Clone a Repository</b>: git clone <i>[repository html from github (starts with "http://")] [name you'd like to give the repository - use _ for spaces]</i> 
+			<li><b>Navigate to the Repository:</b> cd <i>[repository name from above]</i>
+			<li><b>Get Status of Git:</b> git status
+			<li><b>Add file to Staging Area:</b> git add <i>[file name and extension (i.e. README.md)]</i>
+			<li><b>Remove file from Staging Area:</b>
+			<li><b>Commit file to Local Repository:</b> git commit -m "<i>[message for git commit]</i>"
+			<li><b>Configure Git User Email:</b> git config user.email "<i>[user email address]</i>" 
+			<li><b>Configure Git User Name:</b> git config user.name "<i>[user name]</i>"
+			<li><b>Push the Commits to Remote Repository(GitHub):</b> git push origin <i>[origin name (i.e. main, master, etc.)]</i>
+			<li><b>See the Changes to a File:</b> git diff <i>[filename.extension]</i>
+			<li><b>Get Log of Commits:</b> git log
+			<li><b>Undo Changes to File</b> git checkout <i>[filename.extension]</i>
+			<li>To Ignore File Changes (If you had Auto-generated directories, etc.): 
+				<ol>
+					<li><b>Create a GitIgnore File:</b> touch .gitignore</li>
+					<li>Add file names & extensions to the above .gitignore file</li>
+					<li>Add & Commit All Files</li>
+					<li><b>Remove All Cached Files</b> git rm -r -- cached .</li>
+					<li>Add & Commit All Files</li>
+				</ol>
+			</li>
+		</ul>	
+	</body>
+
+<h2>Terminology:</h2>
+	<body>
+		<ul>
+			<li><b>Repositories:</b> Store the full history and source control of a project.</li>
+			<li><b>Directories:</b> Projects in their CURRENT state in time. (Whereas repositories contain all historical versions)</li>
+			<li><b>Working Directory:</b> Your project at its current state in time.</li>
+			<li><b>Staging Area:</b> Bundle of all the modifications to the project that are going to be committed.</li>
+			<li><b>Commit:</b> Similar to taking a snapshot of the current state of the project, then storing it on a timeline. Committing saves the git to your local repository.</li>
+			<li><b>Push:</b> This pushes the git to the remote repository.</li>
+
+
+		</ul>
+	</body>
